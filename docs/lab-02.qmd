@@ -5,15 +5,20 @@ author:
   - name: Leona Myers
     email: leona18@colostate.edu
 format: html
+execute: 
+  echo: true
 ---
 
-install.packages(c("tidyverse", "flextable", "zoo"))
-
+```{r}
 library(tidyverse)
 library(flextable)
 library(zoo)
 
 covid_url <- "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
 covid_data <- read_csv(covid_url)
+
+```
+
+
 
 
