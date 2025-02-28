@@ -2,4 +2,7 @@
 title: "index"
 format: html
 ---
-
+about:
+  links:
+    - text: "LinkedIn"
+      href: https://github.com/leonamyers/csu-ess-lab3
